@@ -1,0 +1,83 @@
+.Icono {
+  position: fixed;
+  bottom: 550px;
+  right: 400px;
+  width: 200px;
+  max-width: 150px;
+  height: 200px;
+  padding: 0.5em;
+  height: 20vh;
+  filter: drop-shadow(3px 4px 4px rgb(0, 0, 0));
+}
+
+.Inicio {
+  filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+
+.Publicaciones {
+  filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+
+.Ajustes {
+  filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+
+.Apps {
+  filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+
+.Ayuda {
+  filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+
+.Titulo-Aplicaciones {
+  position: fixed;
+  bottom: 15px;
+  right: 160px;
+  font-size: 50px;
+  font: oblique bold 200% cursive;
+  filter: drop-shadow(1px 2px 2px rgb(255, 255, 255));
+}
+
+.Texto.Icono {
+  position: fixed;
+  bottom: 350px;
+  right: 200px;
+}
+
+.Texto {
+  position: fixed;
+  bottom: 700px;
+  right: 435px;
+  filter: drop-shadow(3px 2px 2px rgb(51, 255, 0));
+  font: oblique bold 200% cursive;
+}
+
+.Titulo-Menu {
+  font: oblique bold 150% cursive;
+  filter: drop-shadow(1px 2px 2px rgb(255, 255, 255));
+}
+
+.ion-page, #root, body, ion-content, #background-content {
+  --background: url(../assets/GettyImages-129287.jpg) no-repeat cover fixed;
+}
+
+
+ion-menu {
+  --background: transparent;
+  --ion-background-color: transparent;
+  --ion-color-base: transparent !important;
+
+  left: 0px;
+
+  ion-toolbar {
+    --background: transparent;
+  }
+
+  ion-list {
+    --background: transparent;
+  }
+
+}
+
+

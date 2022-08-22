@@ -1,0 +1,89 @@
+<ion-content>
+  <ion-app>
+    <!--Menu -->
+    <ion-menu side="start" menuId="first" contentId="main">
+      <ion-header>
+        <ion-toolbar color="dark">
+          <ion-icon
+            class="Apps"
+            size="large"
+            slot="start"
+            name="apps-sharp"
+          ></ion-icon>
+          <ion-title class="Titulo-Menu">Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <!--Botones -->
+      <ion-content color="dark">
+        <ion-list>
+          <ion-button color="teal" size="full"
+            >Inicio
+            <ion-icon class="Inicio" slot="start" name="home"></ion-icon>
+          </ion-button>
+          <ion-button color="dark" size="full"
+            >Aplicaciones
+            <ion-icon class="Inicio" slot="start" name="apps"></ion-icon>
+          </ion-button>
+          <ion-button color="dark" size="full"
+            >Ajustes
+            <ion-icon class="Ajustes" slot="start" name="settings"></ion-icon>
+          </ion-button>
+          <ion-button color="dark" size="full"
+            >Publicaciones
+            <ion-icon
+              class="Publicaciones"
+              slot="start"
+              name="reader"
+            ></ion-icon>
+          </ion-button>
+        </ion-list>
+        <ion-fab color="dark" vertical="bottom" horizontal="end">
+          <ion-button color="dark">
+            <ion-icon class="Ayuda" name="help-outline"></ion-icon>
+          </ion-button>
+        </ion-fab>
+      </ion-content>
+      <!--Boton Menu -->
+    </ion-menu>
+    <div class="ion-page" id="main">
+      <ion-content class="ion-padding">
+        <ion-menu-toggle>
+          <ion-fab vertical="bottom" horizontal="end">
+            <ion-button color="dark"
+              ><ion-icon name="apps"></ion-icon
+            ></ion-button>
+          </ion-fab>
+        </ion-menu-toggle>
+      </ion-content>
+    </div>
+
+    <!--Encabezado -->
+    <ion-header translucent="true">
+      <ion-toolbar color="dark">
+        <ion-title class="Titulo-Aplicaciones">Aplicaciones</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <!--Imagen -->
+
+    <ion-img
+      class="Icono"
+      width="80"
+      height="80"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/400px-Spotify_App_Logo.svg.png"
+    >
+    </ion-img>
+
+    <!--Spotify -->
+
+    <ion-text class="Texto" color="light">
+      <h1>Spotify</h1>
+    </ion-text>
+
+    <!--Imagen -->
+    <ion-img
+      class="Fondo"
+      src="https://cdn.ipadizate.com/2022/03/Fondo-iPhone-13-Pro-verde-oscuro.jpg"
+    >
+    </ion-img>
+  </ion-app>
+</ion-content>
